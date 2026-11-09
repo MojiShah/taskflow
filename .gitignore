@@ -1,0 +1,46 @@
+
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Vite / React
+dist/
+
+# Build outputs
+build/
+.turbo/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Testing
+coverage/
+
+# Deployment
+.vercel/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE and editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
